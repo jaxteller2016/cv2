@@ -1,0 +1,62 @@
+h1,
+h3 {
+  color: #439a97;
+}
+
+hr {
+  border-style: dotted none none;
+  /*height: 2px;*/
+  width: 30%;
+  border-width: 5px;
+  color: grey;
+}
+
+body {
+  background-color: #cdfcf6;
+}
+
+form {
+  margin-top: 1em;
+}
+input {
+  margin-top: 2em;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.joinBtn {
+  width: 10em;
+  height: 5ex;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+.joinBtn:active {
+  box-shadow: 2px 2px 5px #fc894d;
+}
